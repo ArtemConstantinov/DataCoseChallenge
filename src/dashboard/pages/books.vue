@@ -49,7 +49,7 @@ export default {
             fields: [
                 { key: "title", label: "Title", sortable: true },
                 { key: "author_name", label: "Author name", sortable: false },
-                { key: "pages", label: "Number of pages", sortable: false },
+                { key: "pages", label: "Number of pages", class: "text-center", sortable: false },
                 { key: "actions", label: "Actions", class: "text-right", tdClass: "text-right" }
             ],
             add_edit_form: {}

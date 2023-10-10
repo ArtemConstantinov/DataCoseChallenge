@@ -24,6 +24,10 @@
 
 5) Now we can open `http://localhost:3000` in the browser and see the result.
 
+> For simplicity the user credentialls are harcoded as default values on login form.
+>
+> Username: `admin`<br/>
+> Password: `guest`
 
 ## Utilites
 
@@ -41,7 +45,7 @@ For saving time and as it was not included in to the tasks of Chalange next aspe
 ### Frontend
 
 - Not implemented the loading progress on buttons when they are clicked.
-
+- No adjustments for responsive design
 
 
 

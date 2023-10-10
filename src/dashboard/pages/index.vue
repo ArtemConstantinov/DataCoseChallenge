@@ -53,7 +53,7 @@ export default {
         return {
             fields: [
                 { key: "name", label: "Name", sortable: false },
-                { key: "num_books", label: "Number of books", sortable: false },
+                { key: "num_books", label: "Number of books", class: "text-center", sortable: false },
                 { key: "actions", label: "Actions", class: "text-right", tdClass: "text-right" }
             ],
             add_edit_form: {}
