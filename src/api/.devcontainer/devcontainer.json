@@ -1,0 +1,21 @@
+{
+	"name": "API Dev Container",
+	"dockerComposeFile": [
+		"../../../docker-compose.yml",
+		"docker-compose.yaml"
+	],
+	"service": "api",
+    "workspaceFolder": "/app",
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"editorconfig.editorconfig",
+				"oderwat.indent-rainbow",
+				"ms-python.vscode-pylance",
+				"ms-python.flake8"
+			]
+		}
+	}
+}

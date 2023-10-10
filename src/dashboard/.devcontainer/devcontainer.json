@@ -1,0 +1,24 @@
+{
+    "name": "Dashboard Dev Container",
+    "dockerComposeFile": [
+        "../../../docker-compose.yml",
+        "docker-compose.yaml"
+    ],
+    "service": "dashboard",
+    "workspaceFolder": "/app",
+    "customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+                "vue.volar",
+                "hollowtree.vue-snippets",
+                "formulahendry.auto-close-tag",
+                "formulahendry.auto-rename-tag",
+                "mrmlnc.vscode-scss",
+                "editorconfig.editorconfig", 
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
+}

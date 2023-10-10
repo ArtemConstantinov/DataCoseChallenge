@@ -1,0 +1,1 @@
+python -c "import main; main.restore_db()"

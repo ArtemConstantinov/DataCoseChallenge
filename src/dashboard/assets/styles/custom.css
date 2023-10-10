@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+.b-table th 
+{
+    font-family: "Roboto", sans-serif; /* Replace "YourFont" with the desired font */
+    font-weight: 600; /* Optionally, set the font weight */
+    font-size: 0.9rem;
+    /* Add any other font styles as needed */
+}
